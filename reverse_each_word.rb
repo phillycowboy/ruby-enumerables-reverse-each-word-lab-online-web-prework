@@ -1,10 +1,9 @@
 
 
 
-def reverse_each_word
-i=0
-sentence1.each do |string|
-  if i < string
-    string += 1
+def reverse_each_word(string)
+  arr=str.split
+  new_arr=arr.collect{|a|a.reverse}
+  new_arr.join(" ")
 
 end
